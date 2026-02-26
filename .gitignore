@@ -1,0 +1,27 @@
+# Compiled class files
+*.class
+
+# Logs
+*.log
+
+# Target directory
+target/
+
+# Maven
+.mvn/
+!.mvn/wrapper/maven-wrapper.jar
+
+# IntelliJ
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
