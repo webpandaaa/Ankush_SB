@@ -1,1 +1,49 @@
-just pending nothing here
+application properties of all files
+
+1. ecom-backend
+spring.application.name=ecom-backend
+server.port=8085
+
+# H2 Database
+spring.h2.console.enabled=true
+spring.datasource.url=jdbc:h2:mem:dcbapp
+spring.datasource.driver-class-name=org.h2.Driver
+spring.datasource.username=ecom
+spring.datasource.password=123456
+spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+
+spring.jpa.defer-datasource-initialization=true
+
+
+2.Spring Oauth application
+spring.application.name=SpringOauth
+server.port=8085
+
+
+#spring.security.oauth2.client.registration.google.client-id=
+#spring.security.oauth2.client.registration.google.client-secret=
+
+spring.security.oauth2.client.registration.github.client-id=Ov23liMb6OTmbHpwXYwZ
+spring.security.oauth2.client.registration.github.client-secret=fdb0764bde3d535d4a335d268cc08f9dd8e62d9d
+
+3. Spring Security application
+spring.application.name=SpringSecu
+server.port=8085
+
+spring.security.user.name=ankush
+spring.security.user.password=123456
+
+
+spring.h2.console.enabled=true
+spring.h2.console.path=/h2-console
+
+spring.datasource.url=jdbc:h2:mem:testdb
+spring.datasource.driver-class-name=org.h2.Driver
+spring.datasource.username=ankush
+spring.datasource.password=123456
+
+spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.defer-datasource-initialization=true
+```

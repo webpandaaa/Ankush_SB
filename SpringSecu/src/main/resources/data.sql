@@ -1,0 +1,2 @@
+INSERT INTO users (username, password) VALUES ('naman', '$2a$12$MM7/vKYAnJ/g2Qpga3VdKeZ1axqXoBbe31hxeOdgEoV9/nIPdl2je');
+INSERT INTO users (username, password) VALUES ('aman', '$2a$12$MM7/vKYAnJ/g2Qpga3VdKeZ1axqXoBbe31hxeOdgEoV9/nIPdl2je');
