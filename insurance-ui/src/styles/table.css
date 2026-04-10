@@ -1,0 +1,25 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+  padding: 12px;
+  background: #f1f5f9;
+}
+
+td {
+  padding: 12px;
+  border-top: 1px solid #e5e7eb;
+}
+
+td svg {
+  transition: transform 0.15s ease, opacity 0.15s ease;
+}
+
+td svg:hover {
+  transform: scale(1.2);
+  opacity: 0.8;
+}
+

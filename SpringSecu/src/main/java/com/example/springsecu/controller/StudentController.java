@@ -14,7 +14,6 @@ import java.util.List;
 
 @RestController
 public class StudentController {
-
     private List<Student> students = new ArrayList<>(List.of(
             new Student(1,"Ankush",90),
             new Student(2,"Anjali",91)
@@ -36,5 +35,4 @@ public class StudentController {
         students.add(student);
         return student;
     }
-
 }
